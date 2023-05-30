@@ -1,0 +1,18 @@
+/* Author: Anuj Dawar */
+
+.recipe-dish-image {
+  width: 100%;
+}
+
+.recipe-post-bottom-bar {
+  margin-right: 15px;
+  background-color: aliceblue;
+  padding: 0;
+}
+
+.recipe-container {
+  height: 400px;
+  width: 400px;
+  align-items: center;
+  margin-left: 80px;
+}

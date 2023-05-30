@@ -1,0 +1,62 @@
+/* Author : Parul, Saifali, Ruchika */
+
+.header-container {
+  height: 75px;
+  display: flex;
+  gap: 20px;
+  padding: 0 25px;
+  background: white;
+  background-color: #fff;
+  box-shadow: 0 0 12px rgb(79 79 106 / 30%);
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .icon-button {
+    display: none;
+  }
+}
+
+.header-logo {
+  height: 75px;
+  margin-right: 50px;
+}
+
+.navigation-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  height: 100%;
+}
+
+.navigation-link:active {
+  color: inherit;
+}
+
+.navigation-link:hover:not(.active) {
+  color: #717f94;
+}
+
+.active,
+.active:hover {
+  color: var(--theme-color);
+  font-weight: 600;
+}
+
+.main-navigation {
+  align-self: stretch;
+  gap: 50px;
+  height: 75px;
+}
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    font-size: 36px;
+    align-items: flex-start;
+  }
+}

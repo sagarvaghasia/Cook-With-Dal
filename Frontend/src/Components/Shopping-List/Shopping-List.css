@@ -1,0 +1,74 @@
+/* Author - Ruchika. */
+.shopping-list-container {
+  display: flex;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgb(79 79 106 / 6%);
+  min-height: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  background-color: #fff5ee;
+}
+
+.tab-container {
+  flex-direction: column;
+  width: 30%;
+  margin-right: 20px;
+  display: flex;
+  gap: 20px;
+  max-height: 500px;
+}
+
+.tab-panel-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.button-style {
+  font-weight: 600 !important;
+}
+
+.MuiTabs-vertical .MuiTab-textColorPrimary {
+  font-weight: 600;
+}
+
+.MuiTabs-vertical .MuiTabScrollButton-vertical {
+  color: #000 !important;
+}
+
+.align-items {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  word-break: break-word;
+  text-align: left !important;
+  gap: 10px;
+  font-weight: 600 !important;
+  color: black !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.default-view-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgb(79 79 106 / 6%);
+  min-height: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.image-comtainer {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.app-bar-style {
+  background-color: rgb(251, 206, 177) !important;
+  max-height: 500px;
+}

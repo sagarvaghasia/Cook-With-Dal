@@ -1,0 +1,15 @@
+.calendar-image-wrapper:hover .calendar-image {
+  filter: brightness(0.7);
+}
+
+.delete-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.calendar-image-wrapper:hover .delete-icon {
+  opacity: 1;
+}

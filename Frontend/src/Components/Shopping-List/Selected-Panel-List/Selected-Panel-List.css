@@ -1,0 +1,22 @@
+/* Author - Ruchika */
+.sub-heading {
+  font-weight: 600;
+  background: #f7fafc;
+  padding: 20px;
+  margin-right: 45px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.align-selected-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  margin-right: 55px;
+}
+
+.item-checked {
+  text-decoration: line-through;
+}

@@ -1,0 +1,30 @@
+/* Author - Ruchika. */
+.heading {
+  margin-bottom: 20px;
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.auto-complete-align {
+  width: 95%;
+}
+
+.auto-complete-align .MuiAutocomplete-inputRoot {
+  border-radius: 20px;
+  border: 1px solid;
+}
+
+.item-highlight {
+  font-weight: 600;
+}
+
+.details-panel-container {
+  width: 100%;
+}
+
+.empty-cart-container {
+  text-align: center;
+  margin-top: 80px;
+}

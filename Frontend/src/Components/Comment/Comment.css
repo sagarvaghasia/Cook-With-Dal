@@ -1,0 +1,51 @@
+/* Author : Anuj Dawar*/
+
+.overlay-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: #666666;
+  opacity: 0.8;
+  z-index: 1000;
+  width: 50%;
+}
+
+.comments-section-main {
+  padding: 1%;
+}
+
+.comment-section-close-button {
+  width: fit-content;
+  margin-right: 1%;
+}
+
+.comment-section-add-button {
+  float: right;
+}
+
+.comment-edit-button {
+  float: right;
+}
+
+.comment-delete-button {
+  float: right;
+}
+
+.comment-section-input-comment {
+  width: 100%;
+}
+
+.comments-line-no-comments-text {
+  text-align: center;
+}
+
+.comment-non-editable-text {
+  float: left;
+}
+
+.comment-list-section-header {
+  display: flex;
+  justify-content: right;
+}
